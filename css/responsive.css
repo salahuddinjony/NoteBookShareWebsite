@@ -33,6 +33,9 @@
 .subject-title{
 	padding: 0px 20px;
 }
+.subject-title-web{
+	padding: 0px 20px;
+}
 .head{
 	font-size: 15px;
 	object-fit:cover;
@@ -46,6 +49,23 @@
 }
 .subject-title h1{
 	font-size:20px;
+}
+.subject-title-web h1{
+	font-size:20px;
+}
+.about-us-link{
+	padding:100px 10px;
+}
+.about-us-link li a{
+    color: grey;
+
+}
+.about-us-link li{
+    list-style: none;
+    padding:10px;
+}
+.footer-section{
+	text-align: center;
 }
 }
 /* Wide Mobile Layout: 480px. */

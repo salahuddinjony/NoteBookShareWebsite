@@ -28,9 +28,6 @@ h6 {
 }
 html,
 body { height: 100% }
-body{
-    background-color: #FDFDFD;
-}
 .test {font-family: 'Lato', sans-serif;}
 a {
     -moz-transition: 0.3s;
@@ -41,8 +38,8 @@ a {
 }
 a:hover { text-decoration: none }
 .navbar-brand img{
-    height:50px;
-    width:50px;
+    height:70px;
+    width:70px;
 }
 .navbar-brand{
      display: flex;
@@ -50,12 +47,9 @@ a:hover { text-decoration: none }
 
 }
 .navbar{
-    border-radius: 0px;
-    background-color:#24292E;
-    padding: 20px 0;
-}
-nav li a{
+    font-size:18px;
     color: #fff;
+    padding: 20px 0;
 }
 .navbar-collapse{
     box-shadow: 0px 0px 0px red;
@@ -147,9 +141,6 @@ nav li a{
     margin-bottom:20px;
     border:1px solid #E4E4E4;
 }
-.math-note:hover{
-    transform: translate(5px);
-}
 .math-note p{
     text-align:left;
 }
@@ -171,5 +162,129 @@ nav li a{
     display: flex;
     justify-content: space-between;
 }
-
+.inbox{
+    text-align: center;
+    padding: 30px 0px;
+}
+.inbox h2{
+    background-color:#FCFCFC;
+    border:1px solid #E4E4E4;
+    padding:20px 20px;
+    display: inline-block;
+}
+.inbox button{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.popular-tropics{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+.popular-items{
+    box-sizing: border-box;
+    text-align: center;
+    padding:30px 50px;
+    margin-right:20px;
+    margin-bottom:20px;
+    border:1px solid #E4E4E4;
+}
+.popular-items i{
+    padding-bottom: 10px;
+    font-size:50px;
+    color: #F8A338;
+}
+.subject-title-web h1{
+    position: relative;
+    padding-left:30px;
+}
+.subject-title-web h1:before{
+    content: "";
+    position: absolute;
+    width:20px;
+    height:20px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:#8e44ad;
+}
+.popular-items h4{}
+.popular-items p{}
+.about-us-link{
+    padding: 100px 0px;
+}
+.about-us-link li a{
+    color: grey;
+}
+.about-us-link li{
+    color: grey;
+    list-style: none;
+    padding:5px 0px;
+}
+.about-us-link li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+footer{
+    background-repeat: #15181D;
+}
+.footer-section{
+    background-color: #15181D;
+    padding: 100px 0px;
+}
+.about-us{
+    padding: 50px 80px;
+}
+.about-us h1{
+    color: #fff;
+    padding-bottom: 10px;
+}
+.about-us p{
+    color:#7f8c8d;
+    padding-bottom: 10px;
+}
+.about-us a{
+    color: #FF573D;
+}
+.about-us i{
+    color: #FF573D;
+}
+.quick-link{
+    padding: 50px 0px;
+}
+.quick-link h2{
+    color: #fff;
+}
+.quick-link ul{
+    margin:0px;
+    padding: 0px;
+    padding-top: 10px;
+}
+.quick-link ul li{
+    list-style: none;
+}
+.quick-link ul li a{
+    color: #7f8c8d;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.social-media{
+    padding: 50px 0px;
+    color: #fff;
+}
+.social-media{}
+.social-media i{
+    display:inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:#1abc9c;
+    font-size:15px;
+    color: #fff;
+    cursor: pointer;
+}
 
