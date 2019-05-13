@@ -26,14 +26,26 @@
     display:grid;
     text-align: center;
     grid-template-columns: 1fr; 
-    padding: 0px 30px;
+    padding: 0px 10px;
     grid-gap:20px;
 
 }
 .subject-title{
 	padding: 0px 20px;
 }
-.head-img-1,.head-img-2,.head-img-3{
+.head{
+	font-size: 15px;
+	object-fit:cover;
+    position: relative;
+    max-height:150px;
+    width: 100%;
+    margin-top:10px;
+}
+.title h2{
+	font-size:20px;
+}
+.subject-title h1{
+	font-size:20px;
 }
 }
 /* Wide Mobile Layout: 480px. */
